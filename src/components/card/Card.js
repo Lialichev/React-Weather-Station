@@ -20,7 +20,7 @@ class Card extends Component {
     setInterval(() => this.setState({ time: date.format(new Date(), 'HH:mm:ss') }), 1000);
 
     setInterval(() => {
-      fetch('http://195.54.163.180:5000/api/weather')
+      fetch('http://80.87.201.214:7000/api/weather')
         .then(res => res.json())
         .then((data) => {
           const lastDataUpdate = data[data.length - 1];
