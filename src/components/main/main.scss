@@ -1,7 +1,7 @@
 @import "../../variables";
 
 .main {
-  height: 100vh;
+  min-height: 100vh;
   background: url("./img/cloud.jpg") no-repeat center / cover;
   position: relative;
   display: flex;
